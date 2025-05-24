@@ -769,6 +769,7 @@ footer {
         scroll-snap-align: start;
         margin-right: 1.5rem;
         min-height: 250px;
+        padding: 3rem;
     }
     
     .photo-content {
@@ -777,8 +778,8 @@ footer {
     }
     
     .photo-image {
-        min-height: auto;
-        height: 100%;
+        aspect-ratio: 2/3;
+        object-fit: cover; 
     }
     
     /* Keep other content stacked */
